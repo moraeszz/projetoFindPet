@@ -15,7 +15,7 @@ body{
     font-family: sans-serif, Arial;
     color: var(--textPrimary);
 }
-button {
+/* button {
     padding: 10px;
     font-weight: bold;
     background-color: transparent;
@@ -30,7 +30,7 @@ button {
     :active{
         transform: scale(0.95);
     }
-}
+} */
 `;
 
 
