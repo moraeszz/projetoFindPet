@@ -1,9 +1,11 @@
-import Header from "./components/Header";
+import { GlobalStyles } from "./GlobalStyles";
+import Feed from "./pages/Feed";
 
 function App() {
   return (
     <>
-      <Header/>
+      <GlobalStyles/>
+      <Feed/>
     </>
   );
 }
