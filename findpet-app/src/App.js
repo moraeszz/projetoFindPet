@@ -4,8 +4,8 @@ import Feed from "./pages/Feed";
 function App() {
   return (
     <>
-      <GlobalStyles/>
       <Feed/>
+      <GlobalStyles/>
     </>
   );
 }
