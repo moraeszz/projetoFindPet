@@ -7,7 +7,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #CCCCCC;
+    background-color: #dcdcdc;
     /* margin-top: 150px;
     margin-left: 900px; */
 
@@ -68,7 +68,7 @@ export const FormContainer = styled.form`
     width: 50%;
     padding: 30px;
     display: flex;
-    height: 35vh;
+    height: 40vh;
     flex-direction: column;
     gap: 15px;
     box-shadow: 0px 0px 20px #00000055;
@@ -104,6 +104,24 @@ export const FormContainer = styled.form`
        
     }
 
+    > .check{
+        display: flex;
+        justify-content: space-between;
+        /* width: 80%; */
+        /* background-color: #C98822; */
+        text-align: right;
+        > div {
+            align-items: center;
+            gap: 5px;
+            display: flex;
+            flex: -1 ;
+        
+        }
+    }
+
+    > .caixa{
+        float: left;
+    }
 `;
 
 
