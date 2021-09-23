@@ -1,6 +1,8 @@
 import Input from "../../components/Input";
 import { Container, FormContainer, ContainerFundo } from "./styles";
 import fundo from "../../assets/dog.png"
+import Modal from "../../components/Modal";
+import OpcoesCadastro from "../../components/OpcoesCadastro";
 
 function Login() {
     return (

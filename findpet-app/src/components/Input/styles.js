@@ -22,7 +22,7 @@ export const Container = styled.div`
   // width: 100%;
   height: 40px;
   font-size: 16px;
-  top: 10px;
+  
   // background-color: #0390fc; */azul claro*/
 }
 // > input:focus {
@@ -38,9 +38,6 @@ export const Container = styled.div`
 
 //
 
->Button{
-  background-color: aqua;
-}
 
 `
 
