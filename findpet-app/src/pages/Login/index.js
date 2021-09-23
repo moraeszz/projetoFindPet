@@ -9,6 +9,10 @@ function Login() {
                 <div className="titulo">
                     <h1> <span>Find</span> Pet</h1>
                 </div>
+                <div className="texto">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br> 
+                        </br> incididunt ut labore et dolore magna aliqua. </p>
+                </div>
                 <img src={fundo} />
             </main>
             <div>

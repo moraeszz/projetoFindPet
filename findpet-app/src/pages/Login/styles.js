@@ -43,14 +43,23 @@ export const Container = styled.div`
         > .titulo {
             width: 50vh;      
             margin-left: 310px;
-            font-size: 4em;
-            font-family: roboto;
+            font-size: 3em;
+            font-family:  Roboto, sans-serif;
             display:flex;
             color: #FFB853;
-            > h1 >span {
+            
+            > h1{
+                
+             > span {
                 color: #C98822;
             }
+        }
             //background-color: blue;
+        }
+
+        > .texto{
+            margin-right: 200px;
+            text-align: center;
         }
 
     }
