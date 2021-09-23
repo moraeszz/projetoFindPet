@@ -1,10 +1,11 @@
 import { GlobalStyles } from "./GlobalStyles";
-import Feed from "./pages/Feed";
+import PaginaFeed from "./pages/Feed";
+import PaginaEncontrar from "./pages/Encontrar";
 
 function App() {
   return (
     <>
-      <Feed/>
+      <PaginaEncontrar/>
       <GlobalStyles/>
     </>
   );

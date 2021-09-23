@@ -44,7 +44,7 @@ export const Container = styled.div`
     margin-top: 75px;
     width: 1200px;
     height: auto;
-    background-color: var(--backgroundColor);
+    background-color: var(--primary);
 `;
 
 export const FlexColumn = styled.div`

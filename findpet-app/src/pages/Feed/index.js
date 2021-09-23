@@ -3,7 +3,7 @@ import { Body, Container, FlexColumn } from "../../GlobalStyles";
 import Card from "../../components/Card";
 import Slider from "../../components/Slider";
 
-function Feed() {
+function PaginaFeed() {
     return (
         <Body>
             <Header/>
@@ -18,4 +18,4 @@ function Feed() {
     );
 }
 
-export default Feed;
+export default PaginaFeed;
