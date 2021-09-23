@@ -9,6 +9,10 @@ function Modal() {
                 <Input placeholder='Nome da instituição' id="nomeInstituicao" />
                 <select>
                     <option >Tipo de estabelecimento</option>
+                    <option >ONG</option>
+                    <option >Petshop</option>
+                    <option >Veterinário</option>
+                    <option >Canil</option>
                 </select>
                 <Input placeholder='CNPJ' id="cnpj" />
                 <Input placeholder='E-mail' id="email" />

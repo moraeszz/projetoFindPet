@@ -27,7 +27,7 @@ export const FormContainer = styled.form`
     width: 30vw;
     padding: 30px;
     display: flex;
-    height: 61vh;
+    height: 90vh;
     z-index: 19;
     flex-direction: column;
     gap: 15px;
@@ -52,6 +52,7 @@ export const FormContainer = styled.form`
     > div {
         width: 100%;
         display: flex;
+        gap: 8px;
     }
 
     > select { 
